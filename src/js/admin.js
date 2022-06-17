@@ -39,12 +39,10 @@ function LoadAdminPage(props) {
   );
 }
 
-if (document.getElementById('hungry-flamingo-wp-fse-base-theme-admin-page')) {
-  const domContainer = document.querySelector(
-    '#hungry-flamingo-wp-fse-base-theme-admin-page'
-  );
+if (document.getElementById('base-fse-admin-page')) {
+  const domContainer = document.querySelector('#base-fse-admin-page');
   render(
     <LoadAdminPage {...domContainer.dataset} />,
-    document.getElementById('hungry-flamingo-wp-fse-base-theme-admin-page')
+    document.getElementById('base-fse-admin-page')
   );
 }

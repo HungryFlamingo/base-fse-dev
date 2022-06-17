@@ -19,16 +19,10 @@ function LoadAdminPage(props) {
   return null;
 }
 
-if (
-  document.getElementById('hungry-flamingo-wp-fse-base-theme-frontend-container')
-) {
-  const domContainer = document.querySelector(
-    '#hungry-flamingo-wp-fse-base-theme-frontend-container'
-  );
+if (document.getElementById('base-fse-frontend-container')) {
+  const domContainer = document.querySelector('#base-fse-frontend-container');
   render(
     <LoadAdminPage {...domContainer.dataset} />,
-    document.getElementById(
-      'hungry-flamingo-wp-fse-base-theme-frontend-container'
-    )
+    document.getElementById('base-fse-frontend-container')
   );
 }
