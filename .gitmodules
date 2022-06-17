@@ -1,0 +1,3 @@
+[submodule "common-react-hungry-flamingo"]
+	path = common-react-hungry-flamingo
+	url = https://bitbucket.org/qreuz/common-react-hungry-flamingo.git

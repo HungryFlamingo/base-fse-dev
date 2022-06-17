@@ -1,0 +1,73 @@
+{
+  "name": "base-fse",
+  "version": "1.0.0",
+  "description": "React package for Base FSE - WordPress theme by Hungry Flamingo",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "start": "wp-scripts start --mode=development",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/qreuz/hungry-flamingo-wp-fse-base-theme.git"
+  },
+  "keywords": [
+    "hungry flamingo",
+    "fse",
+    "wordpress",
+    "theme"
+  ],
+  "author": "Hungry Flamingo",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://bitbucket.org/qreuz/hungry-flamingo-wp-fse-base-theme/issues"
+  },
+  "homepage": "https://bitbucket.org/qreuz/hungry-flamingo-wp-fse-base-theme#readme",
+  "devDependencies": {
+    "@wordpress/browserslist-config": "^4.1.2",
+    "@wordpress/eslint-plugin": "^12.3.0",
+    "@wordpress/prettier-config": "^1.3.0",
+    "@wordpress/scripts": "^23.1.0",
+    "sass": "^1.51.0"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.17.12",
+    "@hookform/resolvers": "^2.8.10",
+    "@mui/icons-material": "^5.8.0",
+    "@mui/material": "^5.8.0",
+    "@mui/system": "^5.8.0",
+    "@mui/x-data-grid": "^5.12.0",
+    "@wordpress/components": "^19.11.0",
+    "lodash": "^4.17.21",
+    "postcss": "^8.4.14",
+    "react-hook-form": "^7.31.1",
+    "react-router-dom": "^6.3.0",
+    "react-tooltip": "^4.2.21",
+    "yup": "^0.32.11"
+  },
+  "browserslist": [
+    "extends @wordpress/browserslist-config"
+  ],
+  "babel": {
+    "presets": [
+      "@wordpress/default",
+      "@babel/preset-env",
+      [
+        "@babel/preset-react",
+        {
+          "throwIfNamespace": false
+        }
+      ]
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  }
+}

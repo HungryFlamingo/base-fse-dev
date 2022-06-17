@@ -1,0 +1,53 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "templateParts": [
+    {
+      "name": "archive-content-cpt",
+      "title": "Archive Content (for CPTs)",
+      "area": "uncategorized"
+    },
+    {
+      "name": "archive-content",
+      "title": "Archive Content (default - ALTERED)",
+      "area": "uncategorized"
+    },
+    {
+      "name": "header",
+      "title": "Header (ALTERED)",
+      "area": "header"
+    },
+    {
+      "name": "footer-3-col",
+      "title": "Footer 3 Col (ALTERED)",
+      "area": "footer"
+    },
+    {
+      "name": "breadcrumbs",
+      "title": "Breadcrumbs (ALTERED)",
+      "area": "uncategorized"
+    }
+  ],
+  "customTemplates": [
+    {
+      "name": "single-plugins",
+      "title": "Single Post: CPT Plugins",
+      "postTypes": ["plugins"]
+    },
+    {
+      "name": "single-documentation",
+      "title": "Single Post: CPT Documentation",
+      "postTypes": ["documentation"]
+    },
+    {
+      "name": "single-questions",
+      "title": "Single Post: CPT Questions",
+      "postTypes": ["questions"]
+    },
+    {
+      "name": "archive-questions",
+      "title": "Archive Page (CPT Questions)",
+      "postTypes": ["questions"]
+    }
+  ]
+}

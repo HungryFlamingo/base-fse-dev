@@ -1,0 +1,27 @@
+.nowrap {
+    white-space: nowrap;
+}
+.margin-0 {
+    margin: 0;
+}
+.height-100-percent {
+    height: 100%;
+}
+.rounded-heavy {
+    border-radius: var(--wp--custom--shapes--border-radius-heavy);
+}
+.flex-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.min-height-300 {
+    min-height: 300px;
+}
+.base-container {
+    background-color: var(--wp--preset--color--text-invert);
+    box-shadow: 0px 15px 15px -10px rgb(0 0 0 / 6%);
+    padding: 1em;
+    border-radius: var(--wp--custom--shapes--border-radius);
+    overflow:hidden;
+}
