@@ -44,3 +44,4 @@ Thumbs.db
 *.wmv
 
 # Composer vendor folder
+base-fse/vendor/
