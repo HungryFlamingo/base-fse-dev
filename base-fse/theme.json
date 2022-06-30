@@ -4,8 +4,8 @@
   "settings": {
     "appearanceTools": true,
     "layout": {
-      "contentSize": "1000px",
-      "wideSize": "1000px"
+      "contentSize": "800px",
+      "wideSize": "1200px"
     },
     "typography": {
       "dropCap": true,
@@ -660,6 +660,10 @@
           "bold": 700,
           "extra-bold": 900
         }
+      },
+      "boxshadow": {
+        "regular": "0px 15px 20px -10px var(--wp--preset--color--overlay-20)",
+        "primary": "0px 15px 15px -10px var(--wp--preset--color--primary)"
       }
     }
   },
